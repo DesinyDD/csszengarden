@@ -1,0 +1,108 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+/* Font */
+$title-font: 'Lobster', cursive;
+$title-size: 7.8rem;
+$secondary-title-size: 3rem;
+$body-font: 'Poppins', sans-serif;
+$body-size: 1.4rem;
+
+/* Image URL Path */
+$dog-img-path: "img/cute_dog.jpg";
+
+/* Color */
+$_1st-color: #F4F1DE;
+$_2nd-color: #E07A5F;
+$_3rd-color: #3D405B;
+$_4th-color: #81B29A;
+$_5th-color: #F2CC8F;
+
+/* CSS for 1080p Resolution */
+* {
+    margin: 0px;
+    font-family: $body-font;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    header {
+        background-image: url($dog-img-path);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto 0 auto;
+        height: 100vh;
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 40vh;
+        font-family: $title-font;
+        font-size: $title-size;
+        color: $_2nd-color;
+        text-shadow: 5px 5px $_1st-color;
+    }
+    
+    h2 {
+        font-family: $body-font;
+        font-size: $secondary-title-size;
+        color: $_4th-color;
+        text-shadow: 2px 2px $_1st-color;
+    }
+}
+
+h3 {
+    font-size: $secondary-title-size;
+}
+
+div.summary {
+    background-color: $_5th-color;
+    font-size: $body-size;
+    padding: 40px;
+    text-align: center;
+}
+
+div.preamble, div.supporting div {
+    padding: 40px 160px 0px 160px;
+    p {
+        font-size: $body-size;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 40px 160px 0px 160px;
+    font-size: $body-size;
+    font-size: $secondary-title-size;
+}
+
+div.design-selection {
+    padding: 40px 160px 0px 160px;
+    nav {
+        li {
+            font-size: $body-size;
+        }
+    }
+}
+
+.design-archives  {
+    padding: 40px 160px 0px 160px;
+    li {
+        font-size: $body-size;
+    }
+}
+
+.zen-resources  {
+    padding: 40px 160px 160px 160px;
+    li {
+        font-size: $body-size;
+    }
+}

@@ -1,0 +1,88 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap");
+/* Font */
+/* Image URL Path */
+/* Color */
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.intro header {
+  background-image: url("img/cute_dog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 0 auto;
+  height: 100vh;
+  text-align: center;
+}
+.intro h1 {
+  padding-top: 40vh;
+  font-family: "Lobster", cursive;
+  font-size: 7.8rem;
+  color: #E07A5F;
+  text-shadow: 5px 5px #F4F1DE;
+}
+.intro h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #81B29A;
+  text-shadow: 2px 2px #F4F1DE;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+div.summary {
+  background-color: #F2CC8F;
+  font-size: 1.4rem;
+  padding: 40px;
+  text-align: center;
+}
+
+div.preamble, div.supporting div {
+  padding: 40px 160px 0px 160px;
+}
+div.preamble p, div.supporting div p {
+  font-size: 1.4rem;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 160px 0px 160px;
+  font-size: 1.4rem;
+  font-size: 3rem;
+}
+
+div.design-selection {
+  padding: 40px 160px 0px 160px;
+}
+div.design-selection nav li {
+  font-size: 1.4rem;
+}
+
+.design-archives {
+  padding: 40px 160px 0px 160px;
+}
+.design-archives li {
+  font-size: 1.4rem;
+}
+
+.zen-resources {
+  padding: 40px 160px 160px 160px;
+}
+.zen-resources li {
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
