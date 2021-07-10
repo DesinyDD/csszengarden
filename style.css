@@ -3,6 +3,7 @@
 /* Font */
 /* Image URL Path */
 /* Color */
+/* CSS for 1080p Resolution */
 * {
   margin: 0px;
   font-family: "Poppins", sans-serif;
@@ -17,7 +18,7 @@ a:hover {
 }
 
 .intro header {
-  background-image: url("img/cute_dog.jpg");
+  background-image: url("img/cute_dog_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +53,10 @@ div.summary {
 
 div.preamble, div.supporting div {
   padding: 40px 160px 0px 160px;
+}
+div.preamble h3, div.supporting div h3 {
+  border-bottom-style: solid;
+  border-width: thin;
 }
 div.preamble p, div.supporting div p {
   font-size: 1.4rem;

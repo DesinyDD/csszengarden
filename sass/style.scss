@@ -9,7 +9,7 @@ $body-font: 'Poppins', sans-serif;
 $body-size: 1.4rem;
 
 /* Image URL Path */
-$dog-img-path: "img/cute_dog.jpg";
+$dog-img-path: "img/cute_dog_2.jpg";
 
 /* Color */
 $_1st-color: #F4F1DE;
@@ -72,6 +72,11 @@ div.summary {
 
 div.preamble, div.supporting div {
     padding: 40px 160px 0px 160px;
+    h3 {
+        border-bottom-style: solid ;
+        border-width: thin;
+    }
+
     p {
         font-size: $body-size;
     }
